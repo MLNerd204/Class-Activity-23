@@ -1,32 +1,8 @@
-# Prerequisites
-*.d
+# Ignore the node_modules/folder node_modules/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#Ignore environment variable files 
+.env
 
-# Precompiled Headers
-*.gch
-*.pch
+#Ignore all log files
+*.log
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
